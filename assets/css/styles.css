@@ -19,7 +19,15 @@ q:before, q:after { content:''; }
 
 /*END OF RESET CSS*/
 
+body { font-family: "Lucida Grande";}
+
 main {background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;}
+
+h2 { 
+  font-size: 60px;
+  color: white;
+  margin: 20px;
+}
 
 nav {
   position: absolute;
@@ -29,28 +37,6 @@ nav {
   margin-top: 85px;
   box-shadow: 1px 1px 2px #000000;
 }
-
-ul {
-  display: flex;
-  align-items: stretch;
-}
-
-ul li {
-  width: 11%;
-  height: 100%;
-  font-family: arial;
-  font-size: 14px;
-  color: white;
-  text-shadow: 1px 1px 2px #000000;
-  margin-top: 9px;
-  border-right: .5px solid gray;
-  text-align: center;
-}
-
-ul input { 
-  width: 100px;
-}
-
 
 /* classes */
 
@@ -65,4 +51,46 @@ ul input {
   margin: 0 auto;
   position: relative;
 }
+
+.content {
+  padding-top: 160px;
+  width: 650px;
+  margin: auto;
+  text-align: center;
+}
+
+.content p{
+  font-size: 26px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.content span {
+  font-size: 22px;
+  color: white;
+}
+
+
+
+.nav_ul {
+  display: flex;
+  align-items: stretch;
+}
+
+.nav_ul li {
+  width: 11%;
+  height: 100%;
+  font-family: arial;
+  font-size: 14px;
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+  margin-top: 9px;
+  border-right: .5px solid gray;
+  text-align: center;
+}
+
+.nav_ul input { 
+  width: 100px;
+}
+
 
