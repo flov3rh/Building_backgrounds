@@ -31,8 +31,8 @@ h2 {
 
 nav {
   position: absolute;
-  left: 110px;
-  right: 110px;
+  left: 180px;
+  right: 180px;
   height: 35px;
   margin-top: 85px;
   box-shadow: 1px 1px 2px #000000;
@@ -46,7 +46,6 @@ nav {
 
 .container {
   height: 540px;
-  width: 90%;
   margin: 0 auto;
   position: relative;
 }
@@ -54,7 +53,7 @@ nav {
 .content {
   padding-top: 160px;
   max-width: 650px;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -73,9 +72,9 @@ nav {
 
 .white{ color: white; }
 
-.nav_ul {
-  display: flex;
-}
+.nav_ul { display: flex;}
+
+.nav_hover:hover { background: radial-gradient(rgb(60,60,60) ,rgb(99,99,99));}
 
 .nav_ul li {
   box-sizing: none;
@@ -94,13 +93,31 @@ nav {
   border-right: 1px solid gray;
 }
 
-.nav_hover:hover { background: radial-gradient(rgb(60,60,60) ,rgb(99,99,99));}
-
 .nav_ul input { 
   max-width: 100px;
   border-radius: 9px;
 }
 
-
-#apple { margin-left: -23px;
+.promo {
+  width: 100%;
+  height: 200px;
 }
+
+.promo div {
+    display: flex;
+}
+
+.promo div figure {
+  width: 25%;
+  margin: 0;
+  padding: 0.5px;
+}
+
+.promo div figure img {
+  width: 100%;
+  height: auto;
+}
+
+/* ids */
+
+#apple { margin-left: -23px;}
