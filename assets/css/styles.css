@@ -93,7 +93,7 @@ footer div p { margin-bottom: 15px;}
 
 .white{ color: white; }
 
-.nav_hover:hover { background: radial-gradient(rgb(60,60,60) ,rgb(99,99,99));}
+.nav_hover:hover { background: radial-gradient(rgb(60,60,60) ,rgb(99,99,99)); }
 
 .flex_container { display: flex;}
 
@@ -114,8 +114,19 @@ footer div p { margin-bottom: 15px;}
 }
 
 .nav_ul input { 
-  max-width: 100px;
+  width: 80px;
   border-radius: 9px;
+  transition: width 0.4s;
+  color: white;
+  border-color: gray;
+  box-shadow: 0.1px 0.1px 0.1px #000000;
+  background: url(assets/img/search.png) no-repeat scroll 7px 7px;
+}
+
+.nav_ul input:focus {
+  background-color: white;
+  width: 120px;
+  color: black;
 }
 
 .promo {
