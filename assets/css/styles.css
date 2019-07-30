@@ -19,7 +19,7 @@ q:before, q:after { content:''; }
 
 /*END OF RESET CSS*/
 
-body { font-family: "Lucida Grande";}
+body { font-family: "Lucida Sans Unicode", Verdana,;}
 
 ul li {  list-style: none;}
 
@@ -63,6 +63,21 @@ footer div p { margin-bottom: 15px;}
 
 .gradient { background: linear-gradient(to bottom, rgb(118,118,118) 50%,rgb(99,99,99) 50%); }
 
+
+.nav_link, .foot_link, .body_link{ text-decoration: none; }
+
+.foot_link{ color:#0088CC; }
+
+.white{ color: white; }
+
+.nav_hover:hover { background: radial-gradient(rgb(60,60,60) ,rgb(99,99,99)); }
+
+.flex_container { display: flex;}
+
+.body_link:hover { text-decoration: underline;}
+
+.content span a { color:white; }
+
 .container {
   height: 540px;
   margin: 0 auto;
@@ -86,16 +101,6 @@ footer div p { margin-bottom: 15px;}
   font-size: 22px;
   color: white;
 }
-
-.nav_link, .foot_link{ text-decoration: none; }
-
-.foot_link{ color:#0088CC; }
-
-.white{ color: white; }
-
-.nav_hover:hover { background: radial-gradient(rgb(60,60,60) ,rgb(99,99,99)); }
-
-.flex_container { display: flex;}
 
 .nav_ul li {
   box-sizing: none;
@@ -136,7 +141,7 @@ footer div p { margin-bottom: 15px;}
 
 .promo div figure {
   width: 25%;
-  
+
   margin: 0;
   padding: 0.5px;
 }
@@ -156,3 +161,9 @@ footer div p { margin-bottom: 15px;}
   margin-right: 5px;
 }
 
+#play_icon {
+  color: white;
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 30px;
+}
