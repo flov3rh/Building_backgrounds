@@ -33,20 +33,19 @@ nav {
   position: absolute;
   left: 110px;
   right: 110px;
-  height: 36px;
+  height: 35px;
   margin-top: 85px;
   box-shadow: 1px 1px 2px #000000;
+  border-radius: 5px;
+  border: 1px solid gray;
 }
 
 /* classes */
 
-.gradient { background: linear-gradient(to bottom, rgb(118,118,118) 50%,rgb(99,99,99) 50%); 
-  border-radius: 5px;}
-
-.inline-block * { display: inline-block;}
+.gradient { background: linear-gradient(to bottom, rgb(118,118,118) 50%,rgb(99,99,99) 50%); }
 
 .container {
-  height: 700px;
+  height: 550px;
   width: 90%;
   margin: 0 auto;
   position: relative;
@@ -70,27 +69,38 @@ nav {
   color: white;
 }
 
+.nav_link{ text-decoration: none; }
 
+.white{ color: white; }
 
 .nav_ul {
   display: flex;
-  align-items: stretch;
 }
 
 .nav_ul li {
-  width: 11%;
-  height: 100%;
+  box-sizing: none;
+  width: 13%;
+  height: 35px;
   font-family: arial;
   font-size: 14px;
   color: white;
   text-shadow: 1px 1px 2px #000000;
-  margin-top: 9px;
   border-right: .5px solid gray;
   text-align: center;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 1px solid gray;
 }
+
+.nav_hover:hover { background: radial-gradient(rgb(60,60,60) ,rgb(99,99,99));}
 
 .nav_ul input { 
   width: 100px;
+  border-radius: 9px;
 }
 
 
+#apple { margin-left: -23px;
+}
