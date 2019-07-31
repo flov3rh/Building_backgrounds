@@ -124,20 +124,27 @@ footer div p { margin-bottom: 15px;}
 }
 
 .promo {
-  width: 100%;
   height: 200px;
+  width: auto;
+  margin: 0.8px 0;
+  background-color: red;
 }
 
-.promo div figure {
-  width: 25%;
+.promo div a{ width: 25%;}
 
-  margin: 0;
-  padding: 0.5px;
-}
+.picture_1{ background: url(../img/promo_iphone5s.jpg) no-repeat; }
 
-.promo div figure img {
+.picture_2{ background: url(../img/promo_iphone5c.jpg) no-repeat; }
+
+.picture_3{ background: url(../img/promo_30_years.jpg) no-repeat; }
+
+.picture_4{ background: url(../img/promo_supplier_responsibility.jpg) no-repeat; }
+
+
+.promo div a>div{
+  height: 200px;
   width: 100%;
-  height: auto;
+  border: 0.5px solid white;
 }
 
 /* ids */
