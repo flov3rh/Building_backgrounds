@@ -1,6 +1,6 @@
 # Building_backgrounds
 
-This is the forth project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
+This is the fourth project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 * The goal was to recreate an old version of Apple's main page 
 * The project was completed using html and css 
 
