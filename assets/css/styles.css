@@ -25,12 +25,6 @@ ul li {  list-style: none;}
 
 main {background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;}
 
-h2 { 
-  font-size: 60px;
-  color: white;
-  margin: 20px;
-}
-
 nav {
   position: absolute;
   left: 180px;
@@ -64,7 +58,7 @@ footer div p { margin-bottom: 15px;}
 .gradient { background: linear-gradient(to bottom, rgb(118,118,118) 50%,rgb(99,99,99) 50%); }
 
 
-.nav_link, .foot_link, .body_link{ text-decoration: none; }
+.nav_link, .foot_link { text-decoration: none; }
 
 .foot_link{ color:#0088CC; }
 
@@ -72,11 +66,9 @@ footer div p { margin-bottom: 15px;}
 
 .nav_hover:hover { background: radial-gradient(rgb(60,60,60) ,rgb(99,99,99)); }
 
+.content_link:hover { background: url(../img/cta_your_verse_27pt_hover.png) no-repeat; } 
+
 .flex_container { display: flex;}
-
-.body_link:hover { text-decoration: underline;}
-
-.content span a { color:white; }
 
 .container {
   height: 540px;
@@ -85,21 +77,18 @@ footer div p { margin-bottom: 15px;}
 }
 
 .content {
+  box-sizing: none;
   padding-top: 160px;
-  max-width: 650px;
-  margin: 0 auto;
+  max-width: 1080px;
+  margin: 2px auto;
   text-align: center;
 }
 
-.content p{
-  font-size: 26px;
-  color: white;
-  margin-bottom: 20px;
-}
-
-.content span {
-  font-size: 22px;
-  color: white;
+.content_link {
+  width: inherit;
+  height: 50px;
+  margin-left: 50px;
+  background: url(../img/cta_your_verse_27pt.png) no-repeat;
 }
 
 .nav_ul li {
@@ -167,3 +156,4 @@ footer div p { margin-bottom: 15px;}
   padding-left: 10px;
   font-size: 30px;
 }
+
