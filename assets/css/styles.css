@@ -146,7 +146,7 @@ footer div p { margin-bottom: 15px;}
   width: auto;
 }
 
-.promo div a{ 
+.promo a{ 
   width: 25%; 
   margin: 0.01%;
 }
@@ -159,8 +159,7 @@ footer div p { margin-bottom: 15px;}
 
 .picture_4{ background: url(../img/promo_supplier_responsibility.jpg) no-repeat -15px; }
 
-
-.promo div a>div{
+.promo a>div{
   height: 200px;
   width: 100%;
   border: 0.5px solid white;
